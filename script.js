@@ -105,12 +105,7 @@ decimal.addEventListener("click", (event)=>{
 })
 
 
-const persentages = document.querySelector(".percentage");
-percent.addEventListener("click", ()=>{
-    calculate_percentage()
-    console.log(persentages)
-    // updateScreen(currentNumber)
-})
+
 const persentages = document.querySelector(".percentage");
 persentages.addEventListener("click", ()=>{
     calculate_percentage()
